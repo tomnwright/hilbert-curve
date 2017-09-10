@@ -146,5 +146,8 @@ def cascadeFrom8():
     drawHilbert(8,600)
     
 if __name__ == '__main__':
+    #runs animation from video (https://youtu.be/LCmP_Qqgeow):
     cascadeFrom8()
+    #to generate custom hilbert curves use drawHilbert(iterations,bounding size) eg:
+    #drawHilbert(5,200)
 

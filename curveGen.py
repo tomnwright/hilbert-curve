@@ -144,4 +144,7 @@ def cascadeFrom8():
     turtle.pencolor("#87216d")
     turtle.pendown()
     drawHilbert(8,600)
+    
+if __name__ == '__main__':
+    cascadeFrom8()
 
